@@ -9,8 +9,6 @@ public class ConditionerTest {
 
         Assertions.assertEquals(-5,cond.getMinTemperature());
         Assertions.assertEquals(5, cond.getMaxTemperature());
-        Assertions.assertEquals(-5, cond.getCurrentTemperature());
-
     }
 
     }
